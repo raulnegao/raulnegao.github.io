@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+#logo-marca{
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+}
+#menu{
+
+  width:100%;
+}
+#menu ul{
+	width: 100%;
+}
+#menu ul>:last-child{
+	margin-right: 0;
+}
+
+#menu ul li{
+	width: 14.7%;
+	margin: 0px 1% 0 1%;
+	float: left;
+	display: inline;
+}
+#menu ul li a{
+	padding: 10% 0 5% 0;
+	border-radius: 4% 4% 4% 4%;
+	display: block;
+	width: 100%;
+	text-align: center;
+	height: 50px;
+	background:rgba(131,124,136,1.00);
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font: 14px Arial;
+}
+
+/*MEnu Pequeno*/
+#menu-header{
+	z-index: 1;
+}
+.btn-menu{
+	width: 100%;
+	height: 50px;
+	float: right;
+	text-align: center;
+	color: #fff ;
+	background-color:rgba(131,124,136,1.00);
+}
+.fa{
+	border-radius: 56px;
+}
+/*MEnu*/
+.menu{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: rgba(0,0,0,0.9);
+	top: 0;
+	left: 0;
+}
+
+.menu ul{
+	width: 100%;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+.menu li{
+	padding: 1.5%;
+}
+.menu li a{
+	width: 100%;
+	font-size: 2em;
+	color: #fff;
+	padding: 1.5% 3%;
+}
+.menu li a:hover{
+	border: 1px solid #da6709;
+}
+#voltar:hover{
+	color: #B00609;
+}
+
+/*Troar Menu*/
+@media only screen and (max-width:772px ){
+#menu{
+	display: none;
+}
+}
+@media only screen and (min-width:773px){
+.btn-menu{
+	display: none;
+}
+}
+
+
+
+/*Corpo ou Conteudo*/
+.btn {
+	margin: 1% 25% 1% 25%;
+	width: 50%;
+	height: 35px;
+	border-radius: 2px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+	background-color: #F44336;
+	color: #FFF;
+	transition: background-color .3s;
+	cursor: pointer;
+}
+.maker{
+	width: 100%;
+	float: left;
+	margin-top: -2%;
+}
+.maker .introducao {
+	float: left;
+	width: 50%;
+	margin: 8% 5% 5% 5%;
+}
+
+/*Imagnes*/
+.maker .shop{
+	clear: right;
+	margin: 8% 5% 0 0;
+	width: 30%;
+
+}
+/*Mapa*/
+.introducao iframe{
+	margin: -15% 0 0 50%;
+		float: left;
+}
+.mapa .introducao{
+	margin: 5%;
+}
+/*footer*/
+/*Footer*/
+
+
+.fundo-footer{
+	margin-bottom: 0;
+	float: left;
+  width: 100%;
+  background-color: #2b4751;
+  height: inherit;
+	padding: 2%;
+}
+.fundo-footer h3{
+  color: #CFD8DC;
+  font-size: 0.9em;
+
+}
+
+.fundo-footer h4{
+
+  color: #CFD8DC;
+  font-size: 0.9em;
+}
+
+.copyright{
+  float: left;
+	margin: 2% 20% 2% 20%;
+}
+.cima{
+	border-radius: 3px;
+	width: 40px;
+}
+.cim{
+	float: right;
+	z-index: 1;
+	position: fixed;
+	top: 80%;
+	 right: 0;
+}
