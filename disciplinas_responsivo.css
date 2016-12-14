@@ -1,0 +1,73 @@
+@media only screen and (max-width:320px) and (min-width:0px){
+	.fundo-footer h3{
+  		font-size: 0.5em;
+}
+	.fundo-footer h4{
+ 	 font-size: 0.6em;
+  }
+	.topo{
+		font-size: 1.6em;
+	}
+}
+
+}
+@media only screen and (max-width:500px) and (min-width:0px){
+	.introducao h2{
+	  	font-size: 1.2em
+	}
+	.introducao h3{
+  		font-size: 0.8em;
+	}
+	.btn span{
+		font-size: 0.8em;
+	}
+		.btn{
+		margin: 2% 5% 2% 5%;
+		width: 90%;
+	}
+
+	.fundo-footer h3{
+  		font-size: 0.8em;
+}
+	.fundo-footer{
+		height:inherit;
+	}
+
+	.fundo-footer h4{
+ 	 font-size: 0.7em;
+  }
+  .ima{
+    width: 90%;
+    margin: 1% 5% 1% 5%;
+  }
+	.imagem{
+		max-width: 60%;
+		padding: 5%  2% 0 2%;
+	}
+}
+@media only screen and (max-width:637px) and (min-width:0px){
+	.btn span{
+		font-size: 1em;
+	}
+		.btn{
+		margin: 2% 5% 2% 5%;
+		width: 90%;
+	}
+	.imagem{
+		max-width: 60%;
+		padding: 5%  2% 0 2%;
+	}
+}
+@media only screen and (max-width:827px) and (min-width:637px){
+	.btn span{
+		font-size: 1em;
+	}
+		.btn{
+		margin: 2% 5% 2% 5%;
+		width: 90%;
+	}
+	.imagem{
+		max-width: 43%;
+		padding: 5%  2% 0 2%;
+	}
+	}
